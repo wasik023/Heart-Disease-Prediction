@@ -4,7 +4,7 @@ import pickle
 import streamlit as st
 
 # Load the trained model
-loaded_model = pickle.load(open('D:/ML/trained_model_.sav', 'rb'))
+loaded_model = pickle.load(open('trained_model_.sav', 'rb'))
 
 def predict_heart_disease(input_data):
     # Convert input data to DataFrame
